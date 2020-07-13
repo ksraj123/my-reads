@@ -1,0 +1,45 @@
+
+.root {
+  height: 100%;
+}
+
+.app {
+  background: #e7edef;
+}
+
+.list-books-title {
+    background: #6aaac5;
+    padding: 10px 0;
+    text-align: center;
+}
+  
+.list-books-title h1 {
+    color: #e7edef;
+    font: bold 2.5em 'Old Standard TT', serif;
+    margin: 0;
+}
+  
+.list-books-content {
+    flex: 1;
+    padding: 0 0 80px;
+}
+
+.open-search {
+    bottom: 25px;
+    position: fixed;
+    right: 25px;
+}
+  
+.open-search a {
+    background: #507461;
+    background-image: url('../icons/add.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 28px;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    display: block;
+    font-size: 0;
+    height: 50px;
+    width: 50px;
+}

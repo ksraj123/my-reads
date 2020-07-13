@@ -1,0 +1,13 @@
+
+.bookshelf {
+    padding: 0 10px 20px;
+  }
+  
+.bookshelf-title {
+    border-bottom: 1px solid #dedede;
+    font: bold 2.25em 'Old Standard TT', serif;
+}
+  
+.bookshelf-books {
+    text-align: center;
+}
