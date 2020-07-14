@@ -18,13 +18,13 @@ class MoveBook extends Component {
     return (
       <div className="book-shelf-changer">
         <select onChange={this.updateShelf} defaultValue={currentShelf}>
-          <option value="none" disabled>
+          <option disabled>
             Move to...
           </option>
           {<option value="currentlyReading">Currently Reading</option>}
           {<option value="wantToRead">Want to Read</option>}
           {<option value="read">Read</option>}
-          {<option value="none">Remove</option>}
+          {<option value="none">None</option>}
         </select>
       </div>
     );
